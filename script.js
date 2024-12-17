@@ -37,7 +37,7 @@ var targetMilliseconds =
 // Verificar si existe un temporizador guardado
 var savedCountdown = localStorage.getItem('countDownDate');
 var countDownDate;
-localStorage.removeItem('countDownDate');
+//localStorage.removeItem('countDownDate');
 
 
 if (!savedCountdown) {
